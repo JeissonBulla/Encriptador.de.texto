@@ -1,0 +1,75 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+
+header{
+    background-color: #0B3D91;}
+
+   
+#logoAlura{
+    width: 120 px;
+    height: 120px;
+    margin-top: 40px;  
+    margin-left: 40px
+}
+#textoInicio{
+    color: #E0E0E0;
+    text-align: center;
+    padding-bottom : 20px;
+}
+#banderaColombia{
+    width: 35px;
+    height: 35px;
+}
+#logoLinke{
+    width: 35px;
+    height: 35px;
+}
+#logoGit{
+    width: 35px;
+    height: 35px;
+}
+.botones{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
+}
+button {
+    display: flex; 
+    margin-top: 18px; 
+    background-color: #2C3E50; 
+    border: 1px solid #2C3E50;
+    border-radius: 24px;
+    color: #E0E0E0;
+    cursor: pointer;
+    height: 67px;
+    width: 200px;
+    font-size: 20px;
+    padding: 10px 20px;
+    align-items: center;
+}
+main{
+    background-color: #D3D3D3;
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color: #4F4F4F;
+    padding: 10px;
+}
+.copyR{
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    height: 5px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #E0E0E0;
+}
